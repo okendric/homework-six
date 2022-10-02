@@ -17,48 +17,6 @@ h5,
 h6,
 p {}
 
-.header {
-    width: 51.2%;
-    height: 200px;
-    padding-top: 142px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-
-    .text {
-        display: flex;
-        justify-content: center;
-
-        h1 {
-            color: white;
-            font-size: 50px;
-            letter-spacing: 5px;
-            padding-top: 60px;
-            font-family: 'Coming Soon', cursive;
-            position: absolute;
-            z-index: 98;
-        }
-
-    }
-
-    img {
-        margin: 0 auto;
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        filter: brightness(0.6);
-    }
-}
-
-.wrapper {
-    width: 818px;
-    margin: 0 auto;
-    margin-top: 190px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 
 footer {
     width: 67.9%;
@@ -137,17 +95,5 @@ footer {
             margin-right: 17%;
         }
     }
-
 }
 
-@media only screen and (max-width: 840px) {
-    .wrapper {
-        width: 527px;
-    }
-}
-
-@media only screen and (max-width: 560px) {
-    .wrapper {
-        width: 236px;
-    }
-}
